@@ -1,6 +1,6 @@
 from PIL import Image, ImageSequence
 
-size = 320, 240  # Tamaño de salida
+size = 640, 480  # Tamaño de salida
 im = Image.open("archivo_de_entrada.gif")
 frames = ImageSequence.Iterator(im)
 def thumbnails(frames):
